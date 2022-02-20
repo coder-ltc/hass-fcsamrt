@@ -1,0 +1,23 @@
+{
+  "config": {
+    "flow_title": "fcsmart",
+    "step": {
+      "user": {
+        "data": {
+          "description": "Enter your FC Smart Account. If you never use FC Smart app before you should register on app first.",
+          "username": "[%key:common::config_flow::data::username%]",
+          "password": "[%key:common::config_flow::data::password%]",
+          "server_country": "[%key:common::config_flow::data::server_country%]"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}

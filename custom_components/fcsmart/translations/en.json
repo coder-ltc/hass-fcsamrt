@@ -1,0 +1,23 @@
+{
+    "config": {
+        "flow_title": "fcsmart",
+        "abort": {
+            "already_configured": "Account is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Home Assistant is not authorized to connect. Please check your account.\"",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "description": "Enter your FC Smart Account. If you never use FC Smart app before you should register on app first.",
+                    "password": "Password",
+                    "username": "Phone",
+                    "server_country": "Location"
+                }
+            }
+        }
+   }
+}
